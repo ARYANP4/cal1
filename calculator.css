@@ -1,0 +1,58 @@
+*{
+    background-color: aliceblue;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px;
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+       background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sbox{
+    background-color: midnightblue;
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+.sbox form input{
+   width: 60px;
+   height: 60px;border-radius: 10px;
+   
+}
+
+form input.display{
+    
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    
+   
+}
+form.display input{
+    
+    text-align: right;
+    flex: 1;
+    fond: size 45px;
+    
+}
+form input.equal{
+    width: 120px;
+    background-color: rgb(59, 52, 122);
+}
+
+form input.ope{
+    width: 120px;
+    background-color: rgb(59, 52, 122);
+
+}
+form input.acsp{
+    background-color: rgb(59, 52, 122);
+ 
+}
